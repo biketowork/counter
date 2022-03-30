@@ -1,0 +1,60 @@
+
+.container{
+   position: absolute;
+   margin-left: 50%;
+   margin-top: 30%;
+   background-size: cover;
+   justify-content: center;
+}
+.left{
+   position: relative;
+   display: inline-flex;
+   width: 100px;
+   height: 100px;
+   text-align: center;
+   justify-content: center;
+   opacity: 0.4;
+}
+
+.right{
+    margin: 20px;
+    position: relative;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+   
+   
+ }
+
+
+ #result {
+    width: 160px;
+    height: 160px;
+    background-color: rgba(239, 59, 255, 0.898);
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    bottom: 10%;
+    position: absolute;
+   -webkit-animation: linear infinite;
+   -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+}
+   @-webkit-keyframes run {
+   0% {
+   left: -0;
+ }
+   50% {
+   left: 60%;
+ }
+   100% {
+   left: 0;    
+ }
+}
+
+#result:hover{
+   background-color: blueviolet ;
+}
